@@ -8,7 +8,7 @@
 
     //Declaração de constantes para conectar com o banco 
     //Em define deixar sempre em caixa alta
-    define('SERVER_HOST', 'localhost:3306');
+    define('SERVER_HOST', 'localhost:3310');
     define('SERVER_USER', 'root');
     define('SERVER_PASSWORD', '');
     define('DATABASE_NAME', 'sge');
