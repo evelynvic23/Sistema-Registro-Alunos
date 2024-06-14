@@ -11,5 +11,14 @@
 </head>
 <body class="bodyColor">
 
-    <h1 class="titulo">SGE - SISTEMA DE GERENCIAMENTO ESCOLAR</h1>
+    
+<div class="container">
+
+
+<h1 class="titulo">Sistema de cadastro educacional</h1>
+    <img src="icons/t.png" alt="" class="t"> 
+
+</div>
+
+    
     <br>

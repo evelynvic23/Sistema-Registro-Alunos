@@ -1,6 +1,7 @@
 <?php
     //incluir o arquivo conexao com o banco de dados 
     include 'database.php';
+    include 'header.php';
 
     //resgatar as informações enviadas do formulario via post
     $id_aluno = $_POST ['id'];

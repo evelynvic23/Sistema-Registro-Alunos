@@ -33,8 +33,16 @@ $consulta_bd = mysqli_query($conexao, $sql_listar);
                 <td><?php echo htmlspecialchars($dados_bd['nome_aluno']); ?></td>
                 <td><?php echo htmlspecialchars($dados_bd['email_aluno']); ?></td>
                 <td><?php echo htmlspecialchars($dados_bd['telefone_aluno']); ?></td>
-                <td><a href="form_atualizar_cad_aluno.php?id=<?php echo $dados_bd['id']; ?>"><img src="icons/up.png" alt="atualizar" width="30%"></a></td>
-                <td><a href="excluir_cadastro_aluno.php?id=<?php echo $dados_bd['id']; ?>"><img src="icons/deleta.png" alt="deletar" width="35%"></a></td>
+                <td>
+    <a href="form_atualizar_cad_aluno.php?id=<?php echo $dados_bd['id']; ?>" onclick="return confirm('Tem certeza que deseja atualizar este aluno?');">
+        <img src="icons/up.png" alt="atualizar" width="30%">
+    </a>
+    </td>
+
+                <td> <a href="excluir_cadastro_aluno.php?id=<?php echo $dados_bd['id']; ?>" onclick="return confirm('Tem certeza que deseja excluir este aluno?');">
+                        <img src="icons/deleta.png" alt="deletar" width="35%">
+                    </a>
+        </td>
             </tr>
         <?php endwhile; ?>
     </tbody>
@@ -45,3 +53,4 @@ $consulta_bd = mysqli_query($conexao, $sql_listar);
 </div>
 
 <?php include "footer.php"; ?>
+

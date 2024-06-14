@@ -3,16 +3,31 @@
 
 
 .bodyColor{
-    background-color: #CCCCCC;
+    background-color: #889a9b;
     max-width: 1200px; /* Define a largura máxima */
     margin: 0 auto; /* Centraliza o corpo horizontalmente */
   
 }
-.titulo{
+.container {
+    display: flex;
+    text-align: center;
+   
+}
+
+.titulo {
     text-align: center;
     margin-top: 3%;
-    font-family: "Space Grotesk", sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    margin-left: 20%; /* Adicionando espaço à direita */
 }
+
+.t{
+    width: 80px;
+    margin-left: 7%; /* Adicionando espaço à direita */
+}
+
+
 .card{
     margin: auto;
     position: absolute; 
@@ -40,7 +55,7 @@ footer {
     color: white;
     text-align: center;
     padding-top: 20px; /* Espaçamento interno do rodapé */
-    font-family: "Space Grotesk", sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
 }
 label{
@@ -69,6 +84,28 @@ label{
     border: none;
     font-family: "Space Grotesk", sans-serif;
     font-size: 16px;
+}
+#b3{
+    background-color: #686868;
+    border: none;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+}
+#b4{
+    background-color: #686868;
+    border: none;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+}
+.linkA{
+    color: rgb(34, 34, 34);
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+.linkA:hover{
+    font-size: 20px;
+    color: aliceblue;
 }
 
 

@@ -13,11 +13,11 @@
 </div>
 
 <div class="d-grid">
-    <input type="submit" value="Logar no sistema"class="btn btn-primary">
+    <input type="submit" value="Entrar"class="btn btn-primary" id="b3">
 </div>
 </form> <br>
-<p><a href="#">Esqueceu sua senha?</a></p>
-<p><a href="form.php">Cadastro!</a></p>
+<p><a href="#" class="linkA">Esqueceu sua senha?</a></p>
+<p><a href="form.php" class="linkA">Cadastro!</a></p>
 
 <?php
 
@@ -35,8 +35,11 @@
     }
 ?>
 
+<br>
+
+
 <div class="d-grid">
-    <a href="index.php" class="btn btn-warning"> Voltar </a>
+    <a href="index.php" class="btn btn-warning" id="b4"> Voltar </a>
 </div>
 
 
